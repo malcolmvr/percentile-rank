@@ -1,0 +1,44 @@
+{
+  "name": "percentile-rank",
+  "description": "Returns the percentile of a value.",
+  "homepage": "https://github.com/malcolmvr/percentile-rank",
+  "version": "1.0.0",
+  "main": "lib",
+  "author": {
+    "email": "malcolm@van.raalte.ca",
+    "name": "Malcolm van Raalte",
+    "url": "https://github.com/malcolmvr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malcolmvr/percentile-rank.git"
+  },
+  "bugs": {
+    "url": "https://github.com/malcolmvr/percentile-rank/issues"
+  },
+  "keywords": [
+    "percentile",
+    "rank",
+    "percentrank"
+  ],
+  "devDependencies": {
+    "eslint": "latest",
+    "expect.js": "latest",
+    "mocha": "latest",
+    "nyc": "latest",
+    "should": "latest"
+  },
+  "engines": {
+    "node": ">= 8"
+  },
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf node_modules",
+    "lint": "eslint ./lib",
+    "pretest": "npm run lint",
+    "test": "nyc --reporter=html --reporter=text mocha"
+  }
+}
