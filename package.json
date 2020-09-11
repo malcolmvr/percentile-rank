@@ -2,7 +2,7 @@
   "name": "percentile-rank",
   "description": "Returns the percentile of a value.",
   "homepage": "https://github.com/malcolmvr/percentile-rank",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "lib",
   "author": {
     "email": "malcolm@van.raalte.ca",
