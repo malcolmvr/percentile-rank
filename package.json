@@ -22,9 +22,9 @@
     "percentrank"
   ],
   "devDependencies": {
-    "eslint": "latest",
+    "eslint": "^8.6.0",
     "expect.js": "latest",
-    "mocha": "latest",
+    "mocha": "^9.1.3",
     "nyc": "latest",
     "should": "latest"
   },
