@@ -24,9 +24,13 @@
   "devDependencies": {
     "eslint": "^8.6.0",
     "expect.js": "latest",
-    "mocha": "^9.1.3",
+    "mocha": "^11.7.5",
     "nyc": "latest",
     "should": "latest"
+  },
+  "overrides": {
+    "diff": "^8.0.3",
+    "serialize-javascript": "^7.0.5"
   },
   "engines": {
     "node": ">= 8"
